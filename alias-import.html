@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Alias Import</title>
+</head>
+<body>
+<script type="module">
+    import {company, sum, Company} from "./scripts/alias-import.js";
+    import {perusahaan, total, Perusahaan} from "./scripts/alias-export.js";
+
+    console.log(perusahaan);
+    console.log(company);
+    console.log(total(2,3));
+    console.log(sum(2,3));
+</script>
+</body>
+</html>
