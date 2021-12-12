@@ -1,9 +1,9 @@
-function sayHello (name) {
+export function sayHello (name) {
     console.log(`Hello ${name}`);
 }
 
-function sayGoodBye(name) {
+export function sayGoodBye(name) {
     console.log(`Good Bye ${name}`);
 }
 
-const name = "Iko Afianando";
+export const name = "Iko Afianando";
