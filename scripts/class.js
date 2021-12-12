@@ -4,6 +4,6 @@ export class Person {
     }
 
     sayHello(name) {
-        console.log(`Hello ${name}: MY Name is ${this.name}`);
+        console.log(`Hello ${name} : My Name is ${this.name}`);
     }
 }
