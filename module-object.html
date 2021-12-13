@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Module Object</title>
+</head>
+<body>
+<script type="module">
+    import * as iko from "./scripts/module-object.js"
+
+    console.log(iko.firstName);
+    console.log(iko.lastName);
+    console.log(iko.fullName);
+
+    iko.sayHello();
+    const person = new iko.Person();
+
+</script>
+</body>
+</html>

@@ -8,7 +8,7 @@ export function sayHello() {
 
 export class Person {
     constructor() {
-        this.name = "Iko"
+        console.log("Iko Afianando");
     }
 }
 
